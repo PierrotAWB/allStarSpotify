@@ -1,2 +1,48 @@
-<h1>Browse#discover</h1>
-<p>Find me in app/views/browse/discover.html.erb</p>
+<!-- Sidebar -->
+<div class="w3-sidebar w3-black w3-bar-block", id="nav-sidebar", style="width:20%">
+<a href = "#" ><img src = "https://vignette2.wikia.nocookie.net/shrek/images/c/cc/Shrek_smiling.jpg" width= 35%, height= 15% id= logo></a> 
+  <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+
+      </form>
+  <a href=/browse/featured/ class="w3-bar-item w3-button", id = "navbar-item">Browse</a>
+  <a href=/user/playlist/ class="w3-bar-item w3-button", id = "navbar-item">Your Music</a>
+  
+</div>
+
+<!-- Page Content -->
+
+<div style="margin-left:20%">
+
+<div class="w3-container">
+  <ul id="top-banner">
+    <li id="top-banner-item"><a href=/browse/featured>FEATURED</li>
+    <li id="top-banner-item"><a href="/browse/genres/">GENRES & MOODS</li>
+    <li id="top-banner-item"><a href="/browse/newreleases">NEW RELEASES</li>
+    <li id ="top-banner-item"><a href="/browse/discover">DISCOVER</li>
+  </ul>
+</div>
+<div id = "discoverheading">
+  <h1> Top Recommendations for You </h1>
+</div>
+<a href = /user/playlist><img src = "http://www.xxlmag.com/files/2017/07/DEEg9ZmUIAAcdEb.jpg" width= 25%, height= 25% id= tyler></a>
+<a href = /user/playlist><img src = "https://consequenceofsound.files.wordpress.com/2017/04/c9juz9luaaedowx-1.jpg" width= 300px, height= 290px id = lana ></a> 
+<a href = /user/playlist><img src = "http://www.xxlmag.com/files/2017/04/C9H8-PWUIAAzbQ2.jpg" width= 300px, height= 290px id = kendrick ></a> 
+
+
+<nav class="navbar navbar-inverse" id="audio-player">
+  <div class="container-fluid">
+    <div>
+      <a href = "https://www.youtube.com/watch?v=L_jWHffIx5E"></a><img id ="shrek-photo" src = "https://vignette2.wikia.nocookie.net/shrek/images/c/cc/Shrek_smiling.jpg/revision/latest?cb=20130413033028" width="60px" height = "60px">
+    </div>
+    <iframe id="spotify-player" src="https://open.spotify.com/embed/user/andrewwang298/playlist/0YwyxbB6MYIzbSwneMwWPK" width="300" height="70" frameborder="0" allowtransparency="true"></iframe>
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      
+      <!-- <img src = "soundController.png" width = "150" height = "50" id = "soundController"> -->
+      
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>

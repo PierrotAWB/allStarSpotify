@@ -1,64 +1,47 @@
-<nav class="navbar navbar-inverse" id="navbar-main">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">Smashify</a>
-    </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Featured <span class="sr-only">(current)</span></a></li>
-        <li><a href="/browse/genres/">Genres & Moods</a></li>
-        <li><a href="#">New Releases</a></li>
-        <li><a href="#">Discover</a></li>
-      </ul>
-
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Genres & Moods</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-          </ul>
-        </li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
-
 <!-- Sidebar -->
-<div class="w3-sidebar w3-light-grey w3-bar-block", id="nav-sidebar", style="width:20%">
-  <h3 class="w3-bar-item">Menu</h3>
+<div class="w3-sidebar w3-black w3-bar-block", id="nav-sidebar", style="width:20%">
+<a href = "#" ><img src = "https://vignette2.wikia.nocookie.net/shrek/images/c/cc/Shrek_smiling.jpg" width= 35%, height= 15% id= logo></a> 
   <form class="navbar-form navbar-left">
         <div class="form-group">
           <input type="text" class="form-control" placeholder="Search">
         </div>
+
       </form>
-  <a href="#" class="w3-bar-item w3-button">Browse</a>
-  <a href="#" class="w3-bar-item w3-button">Featured</a>
+  <a href=/browse/featured/ class="w3-bar-item w3-button", id = "navbar-item">Browse</a>
+  <a href=/user/playlist/ class="w3-bar-item w3-button", id = "navbar-item">Your Music</a>
   
 </div>
-
 <!-- Page Content -->
+
 <div style="margin-left:20%">
 
-<div class="w3-container w3-black">
-  <h1>Genres & Moods</h1>
-h1 {
-    text-decoration: underline;
-}
+<div class="w3-container">
+  <ul id="top-banner">
+    <li id="top-banner-item"><a href=/browse/featured>FEATURED</li>
+    <li id="top-banner-item"><a href="/browse/genres/">GENRES & MOODS</li>
+    <li id="top-banner-item"><a href="/browse/newreleases">NEW RELEASES</li>
+    <li id="top-banner-item"><a href="/browse/discover">DISCOVER</li>
+  </ul>
 </div>
+<div id = "genresheading"> 
+<h1> A Playlist For Every Mood.</h1>
+</div>
+<a href = /user/playlist><img src = "https://contentpl-a.akamaihd.net/images/playlists/image/medium/a74a04708556e68740558e04c121c872.jpg" width= 25.5%, height= 25.5% id= pianofocus></a>
+<a href = /user/playlist><img src = "https://contentpl-a.akamaihd.net/images/playlists/image/medium/f005921b5ad5c8e3a3085baeee95bcc5.jpg" width= 300px, height= 290px id = latenight ></a> 
+<a href = /user/playlist><img src = "http://www.thinkinginstyle.nl/wp-content/uploads/2015/02/MoodBooster.jpeg" width= 300px, height= 290px id = moodbooster ></a> 
 
 
-
+<nav class="navbar navbar-inverse" id="audio-player">
+  <div class="container-fluid">
+    <div>
+      <a href = "https://www.youtube.com/watch?v=L_jWHffIx5E"></a><img id ="shrek-photo" src = "https://vignette2.wikia.nocookie.net/shrek/images/c/cc/Shrek_smiling.jpg/revision/latest?cb=20130413033028" width="60px" height = "60px">
+    </div>
+    <iframe id="spotify-player" src="https://open.spotify.com/embed/user/andrewwang298/playlist/0YwyxbB6MYIzbSwneMwWPK" width="300" height="70" frameborder="0" allowtransparency="true"></iframe>
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      
+      <!-- <img src = "soundController.png" width = "150" height = "50" id = "soundController"> -->
+      
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>

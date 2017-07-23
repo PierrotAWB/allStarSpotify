@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'user/playlist'
+
   get 'collection/playlists'
 
   get 'collection/daily-mix-hub'

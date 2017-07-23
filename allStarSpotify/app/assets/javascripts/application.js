@@ -14,3 +14,9 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+document.getElementByClass("album-cover").onclick = function() {restartMusic()};
+
+function restartMusic() {
+    document.getElementById("play-button").click();
+}

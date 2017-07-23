@@ -20,29 +20,143 @@
   padding: 0;
 }
 
+#audio-player { 
+  position: fixed; 
+  margin-bottom: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  padding-bottom: 1.8%;
+  padding-top: 1.8%;
+}
+
 #navbar-main { 
  margin-bottom: 0%; 
- background-color: black;
-
+ position: fixed;
 }
 
 #nav-sidebar {
+  position: fixed;
   overflow-y: auto;
-  background-color: #000000;
-  opacity: 0.9;
-  padding-top: 5%;
+  opacity: 0.8;
+  z-index: 0;
 }
 
-h1 {
+#shrek-photo { 
+  margin-left: 20px;
+  display: inline;
+}  
+
+#navbar-item { 
+   text-decoration: none; 
+}
+
+#logo {
+    margin-top: 5%;
+    margin-left: 30%;
+    padding-bottom: 5% ;
+}
+
+#player { 
+   margin-left: 180%; 
+}
+
+#top-banner {
+    list-style-type: none;
+    margin: 0;
+    padding: 4%;
+    padding-left: 30%;
+}
+
+#discoverheading {
+   margin-left: 27%;
+}
+
+#top-banner-item{ 
+   color: white;
+   display: inline;
+   text-decoration: none;
+   font-size: 10pt;
+   padding: 1.5%;
+}
+
+a:active { 
   color: green;
+}
+
+#summercover {
+    margin-top: 5%;
+    margin-left: 5%;
+}
+#summerparty {
+    margin-top: 5%;
+    margin-left: 5%;
+}
+#summerpop {
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+#tyler {
+    margin-top: 5%;
+    margin-left: 5%;
+}
+#lana {
+    margin-top: 5%;
+    margin-left: 5%;
+}
+#kendrick {
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+#newreleases {
+    margin-left: 35%;
+}
+#pianofocus {
+    margin-top: 5%;
+    margin-left: 5%;
+}
+#latenight {
+    margin-top: 5%;
+    margin-left: 5%;
+}
+#genresheading {
+    margin-left: 30%
+}
+#moodbooster {
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+#spotify-player{ 
+  display: inline;
+  position: fixed;
+  right: 40%;
+  bottom: 3%;
+}
+
+#troll { 
+    margin-top:3%;
+}    
+
+#album-cover {
+    display: inline;
+    margin-left: 20% ; 
+}
+
+.album-caption {
+     color: white;
+     position: relative; 
+     margin-left:15%;
+     right: -5%;
 }
 
 .sidebar { 
   background-color: blue;
-}
-
-p { 
-  background-color: red; 
 }
 
 body {
